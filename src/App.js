@@ -1,12 +1,15 @@
 import React from 'react'
 
 function App() {
-  return (
-    <div className="App">
-      <h3>Hello World! <br/> สวัสดีชาวโลก</h3>
-      
-    </div>
-  );
+  let r = '<B>React</B>'
+  let rn = 'React Native'
+  const el =(
+    <>
+      Creat Web & Mobile App<br/>
+      with <span dangerouslySetInnerHTML={{__html:r}}/> & {rn}
+    </>
+  )
+  return el
 }
 
 export default App;
