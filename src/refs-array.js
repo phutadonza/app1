@@ -28,7 +28,7 @@ export default function RefsArray(){
     const tableStyle = {margin:'auto',marginTop:30}
 
     return(
-        <table ref={table} border="1" cellPadding={5} style={tableStyle}>
+        <table ref={table} border="1" cellPadding={5} style={tableStyle}> 
             <tr><th>Product</th><th>Price</th><th>Delete</th></tr>
             {
                 data.map((item,i) => {
