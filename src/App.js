@@ -1,14 +1,12 @@
 import React from 'react'
-import RefsFunc from './refs-func';
-import RefsArray from './refs-array';
-import MessageBox from './state-func';
+import { userContext } from './context';
+import Content from './context-content';
 
 function App() {
   return (
-    <>
-      <RefsArray/>
-      <MessageBox/>
-    </>
+    <userContext.Provider value={'Phutadon Phummarin'}>
+      <Content/>
+    </userContext.Provider>
   )
 }
 
