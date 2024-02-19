@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function FromSearch(){
+export default function FormSearch(){
     const textKw = React.useRef()
     const btOk = React.createRef()
 
@@ -17,7 +17,7 @@ export default function FromSearch(){
             <form>
                 <input type  = "text" name="kw" placeholder='ค้นหา' 
                 ref={textKw} onInput={onChangeKw}/>&nbsp;
-                <button ref={btOk} disabled>ตกลง</button>
+                <button ref={btOk} disabled></button>
             </form>
         </div>
     )

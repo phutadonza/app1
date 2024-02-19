@@ -1,8 +1,8 @@
 import React from "react";
-import FromSearch from "./form-search";
+import FormText from "./form-text";
 
 
 
 export default function App() {
-  return <FromSearch />;
+  return <FormText />;
 }
